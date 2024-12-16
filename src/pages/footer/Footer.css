@@ -1,0 +1,31 @@
+.footer {
+    margin: 0; /* Remove qualquer margem externa */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    text-align: center;
+}
+.footer-links ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    display: flex; /* Alinha os itens em uma linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 15px; /* Espaço entre os itens */
+}
+
+.footer-links li {
+    display: inline-block; /* Faz com que os itens da lista se comportem como elementos inline */
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: #FFA652; /* Altere a cor do hover se desejar */
+}

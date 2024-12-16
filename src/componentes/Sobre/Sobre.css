@@ -1,0 +1,95 @@
+/* Animação de entrada */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Aplique a animação a todos os elementos que devem entrar com o efeito */
+.fade-in {
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.delay-1 {
+    animation-delay: 0.3s; /* Atraso para o primeiro parágrafo */
+}
+
+.delay-2 {
+    animation-delay: 0.6s; /* Atraso para o segundo parágrafo */
+}
+
+/* Layout da seção */
+.sobreEmpresa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px;
+    background-color: #232323; /* Fundo escuro */
+    color: #ffffff; /* Texto claro */
+}
+
+/* Estilo do conteúdo principal */
+.sobreEmpresa-content {
+    display: flex;
+    flex-wrap: wrap; /* Ajusta em telas menores */
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+/* Estilo do texto */
+.textoContainerEmpresa {
+    flex: 1;
+    max-width: 50%;
+}
+
+.titulo-secao {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #FFA652; /* Cor laranja */
+}
+
+.textoContainerEmpresa p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #ffffff; /* Texto claro */
+}
+
+/* Estilo da imagem */
+.imageContainer {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MonisePC {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .sobreEmpresa-content {
+        flex-direction: column; /* Empilha o texto e a imagem */
+        text-align: center;
+    }
+    .textoContainerEmpresa, .imageContainer {
+        max-width: 100%;
+    }
+    .MonisePC {
+        max-width: 80%; /* Ajusta o tamanho da imagem */
+    }
+}
