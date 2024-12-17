@@ -9,7 +9,7 @@ const Sobre = () => {
                 <div className="textoContainerEmpresa">
                     <h2 className="titulo-secao">Sobre</h2>
                     <p className="fade-in delay-1">
-                        A Sites e Sistemas é uma empresa criada para transformar ideias em soluções digitais, oferecendo sites
+                        A Sites Sistemas é uma empresa criada para transformar ideias em soluções digitais, oferecendo sites
                         modernos e sistemas personalizados que atendem às necessidades de cada cliente. Nosso foco é proporcionar
                         inovação e impacto real para negócios, sempre utilizando tecnologia avançada e práticas de desenvolvimento
                         alinhadas ao mercado.

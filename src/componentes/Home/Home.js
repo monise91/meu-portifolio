@@ -23,7 +23,7 @@ const Home = () => {
                     <Grid item xs={12} md={7}>
                         <div className="text-container">
                             <Typography className="fade-in" variant="h1" textAlign="center" pb={2}>
-                                Sites e Sistemas
+                                Sites <br /> Sistemas
                             </Typography>
                             <Typography className="fade-in delay-1" variant="h4" textAlign="center">
                                 Transformo suas <span className="highlight-text">ideias</span> em{" "}
