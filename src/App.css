@@ -1,49 +1,34 @@
-/*!* Estilos globais *!*/
-/*body {*/
-/*    background: linear-gradient(to bottom, #000000, #232323); !* Gradiente de preto para cinza escuro *!*/
-/*    color: #ffffff;*/
-/*    font-family: Arial, sans-serif;*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    min-height: 100vh;*/
-/*    scroll-behavior: smooth; !* Rolagem suave entre seções *!*/
-/*}*/
-/* Remover margens e espaçamentos entre as seções */
 section {
     margin: 0;
     padding: 0;
 }
 
-/* Configuração do fundo preto */
 body {
-    background-color: #000; /* Fundo preto global */
-    color: #fff; /* Texto branco global */
+    background-color: #000;
+    color: #fff;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Garante que o container ocupe toda a largura */
 .container {
     width: 100%;
     max-width: 100%;
 }
 
-/* Ajusta transição suave entre seções */
 .servicos,
 .projetos {
-    background-color: #000; /* Fundo preto */
-    padding: 40px 20px; /* Define o espaçamento interno */
+    background-color: #000;
+    padding: 40px 20px;
 }
 
 .App {
     display: flex;
-    flex-direction: column; /* Organiza as seções em coluna */
+    flex-direction: column;
     width: 100%;
-    overflow-x: hidden; /* Garante que o conteúdo não ultrapasse a largura da tela */
+    overflow-x: hidden;
 }
 
-/* Imagem de perfil */
 .profile-pic {
     border-radius: 50%;
     width: 150px;
@@ -51,13 +36,12 @@ body {
     object-fit: cover;
 }
 
-/* Botões */
 .buttons {
     margin: 20px;
 }
 
 button {
-    background-color: #ffa652; /* Cor laranja */
+    background-color: #ffa652;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -68,17 +52,15 @@ button {
 }
 
 button:hover {
-    background-color: #e59442; /* Laranja mais escuro */
+    background-color: #e59442;
 }
 
-/* Layout principal */
 main {
     padding: 20px;
 }
 
-/* Estilo das seções */
 section {
-    min-height: 100vh; /* Cada seção ocupa 100% da altura da tela */
+    min-height: 100vh;
     padding: 40px;
     box-sizing: border-box;
     display: flex;
@@ -87,28 +69,24 @@ section {
     justify-content: center;
 }
 
-/* Seções específicas */
 .sobreMim, .competencia, .projetos, .contato {
     margin: 0;
     max-width: 100%;
     text-align: center;
 }
 
-/* Títulos */
 h2, .titulo-secao {
     font-size: 2rem;
-    color: #ffa652; /* Laranja */
+    color: #ffa652;
     margin-bottom: 20px;
 }
 
-/* Lista de serviços e projetos */
 .servicos-lista, .projetos-lista {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-/* Cards */
 .servico-card, .projeto-card {
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -120,10 +98,9 @@ h2, .titulo-secao {
     color: #333;
 }
 
-/* Chamada para ação */
 .cta-botao {
     color: white;
-    background-color: #ffa652; /* Cor laranja */
+    background-color: #ffa652;
     padding: 10px 15px;
     border-radius: 5px;
     text-decoration: none;
@@ -131,13 +108,12 @@ h2, .titulo-secao {
 }
 
 .cta-botao:hover {
-    background-color: #e59442; /* Laranja mais escuro */
+    background-color: #e59442;
     transform: scale(1.05);
 }
 
-/* Links */
 a {
-    color: #ffa652; /* Cor laranja */
+    color: #ffa652;
     text-decoration: none;
 }
 
@@ -145,7 +121,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Lista */
 ul {
     list-style-type: none;
     padding: 0;
@@ -155,27 +130,25 @@ li {
     margin-bottom: 10px;
 }
 
-/* Estilo da Home */
 .home {
-    background-color: #232323; /* Cor de fundo da Home */
+    background-color: #232323;
 }
 
 .sobreEmpresa {
-    background-color: #333; /* Cor de fundo da Sobre Empresa */
+    background-color: #333;
 }
 
 .contato {
-    background-color: #444; /* Cor de fundo da Contato */
+    background-color: #444;
     color: #fff;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
     .servicos-lista, .projetos-lista {
-        flex-direction: column; /* Organiza os cards em uma coluna em telas menores */
+        flex-direction: column;
     }
 
     section {
-        padding: 20px; /* Diminui o padding em telas menores */
+        padding: 20px;
     }
 }

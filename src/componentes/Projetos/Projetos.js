@@ -38,7 +38,7 @@ const Projetos = () => {
     const openModal = (projeto) => {
         setSelectedProject(projeto);
         setModalOpen(true);
-        setCurrentImageIndex(0); // Inicia pela primeira imagem
+        setCurrentImageIndex(0);
     };
 
     const closeModal = () => {

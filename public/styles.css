@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -14,58 +15,7 @@ body {
     background-color: #fafafa;
 }
 
-/* Cabeçalho */
-.cabecalho {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #282c34;
-    color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.cabecalho-logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.cabecalho-menu a {
-    margin: 0 15px;
-    color: #61dafb;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.cabecalho-menu a:hover {
-    color: #4fa3d7;
-}
-
-/* Links e botões */
-a, .cta-botao {
-    color: #61dafb;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover, .cta-botao:hover {
-    color: #4fa3d7;
-}
-
-.cta-botao {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #61dafb;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-}
-
-.cta-botao:hover {
-    background-color: #4fa3d7;
-}
-
-/* Estrutura da Página */
+/* Estrutura global */
 .titulo-secao {
     font-size: 28px;
     font-weight: bold;
@@ -78,18 +28,4 @@ p {
     font-size: 16px;
     color: #555;
     line-height: 1.6;
-}
-
-/* Rodapé */
-footer {
-    padding: 20px;
-    text-align: center;
-    background-color: #282c34;
-    color: white;
-    margin-top: 20px;
-}
-
-footer p {
-    margin: 0;
-    font-size: 14px;
 }

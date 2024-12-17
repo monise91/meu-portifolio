@@ -2,14 +2,14 @@
     margin: 0;
     padding: 40px 20px;
     text-align: center;
-    background-color: #232323; /* Fundo escuro */
+    background-color: #232323;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     //margin-bottom: 20px;
 }
 
 .titulo-secao {
     font-size: 2.5em;
-    color: #FFA652; /* Destaque para o título */
+    color: #FFA652;
     margin-bottom: 30px;
     font-weight: 700;
 }
@@ -32,17 +32,17 @@
     gap: 8px;
     transition: transform 0.3s ease, color 0.3s ease;
     padding: 10px 20px;
-    background-color: #1f1f1f; /* Fundo dos itens */
+    background-color: #1f1f1f;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .competencia-lista li:hover {
     transform: scale(1.1);
-    color: #FFA652; /* Cor de destaque ao passar o mouse */
+    color: #FFA652;
 }
 
 .competencia-lista svg {
     font-size: 1.5em;
-    color: #FFA652; /* Cor dos ícones */
+    color: #FFA652;
 }

@@ -1,4 +1,3 @@
-/* Animação de entrada */
 @keyframes fadeInUp {
     0% {
         opacity: 0;
@@ -10,41 +9,37 @@
     }
 }
 
-/* Aplique a animação a todos os elementos que devem entrar com o efeito */
 .fade-in {
     animation: fadeInUp 1s ease-out forwards;
 }
 
 .delay-1 {
-    animation-delay: 0.3s; /* Atraso para o primeiro parágrafo */
+    animation-delay: 0.3s;
 }
 
 .delay-2 {
-    animation-delay: 0.6s; /* Atraso para o segundo parágrafo */
+    animation-delay: 0.6s;
 }
 
-/* Layout da seção */
 .sobreEmpresa {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     padding: 40px;
-    background-color: #232323; /* Fundo escuro */
-    color: #ffffff; /* Texto claro */
+    background-color: #232323;
+    color: #ffffff;
 }
 
-/* Estilo do conteúdo principal */
 .sobreEmpresa-content {
     display: flex;
-    flex-wrap: wrap; /* Ajusta em telas menores */
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     max-width: 1200px;
     gap: 20px;
 }
 
-/* Estilo do texto */
 .textoContainerEmpresa {
     flex: 1;
     max-width: 50%;
@@ -54,16 +49,15 @@
     font-size: 2.5em;
     margin-bottom: 20px;
     font-weight: bold;
-    color: #FFA652; /* Cor laranja */
+    color: #FFA652;
 }
 
 .textoContainerEmpresa p {
     font-size: 1.2em;
     line-height: 1.6;
-    color: #ffffff; /* Texto claro */
+    color: #ffffff;
 }
 
-/* Estilo da imagem */
 .imageContainer {
     flex: 1;
     max-width: 50%;
@@ -80,16 +74,15 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
     .sobreEmpresa-content {
-        flex-direction: column; /* Empilha o texto e a imagem */
+        flex-direction: column;
         text-align: center;
     }
     .textoContainerEmpresa, .imageContainer {
         max-width: 100%;
     }
     .MonisePC {
-        max-width: 80%; /* Ajusta o tamanho da imagem */
+        max-width: 80%;
     }
 }
