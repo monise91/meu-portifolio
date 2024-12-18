@@ -4,15 +4,19 @@
     background-color: #000; /* Fundo preto */
     color: #fff; /* Texto branco */
     text-align: center;
+    width: 100%; /* Garante que o footer ocupe toda a largura */
+    box-sizing: border-box;
 }
 .footer-links ul {
-    list-style-type: none; /* Remove os marcadores da lista */
-    padding: 0; /* Remove o padding padrão */
-    margin: 0; /* Remove a margem padrão */
-    display: flex; /* Alinha os itens em uma linha */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens "quebrem" para a próxima linha */
     justify-content: center; /* Centraliza os itens horizontalmente */
     gap: 15px; /* Espaço entre os itens */
 }
+
 
 .footer-links li {
     display: inline-block; /* Faz com que os itens da lista se comportem como elementos inline */
@@ -28,4 +32,16 @@
 .footer-links a:hover {
     text-decoration: underline;
     color: #FFA652; /* Altere a cor do hover se desejar */
+}
+@media (max-width: 768px) {
+    .footer-links ul {
+        flex-direction: column; /* Reorganiza os links em coluna */
+        align-items: center; /* Centraliza os links */
+        gap: 10px; /* Reduz o espaço entre os links */
+    }
+
+    .footer-links li {
+        width: 100%; /* Garante que os itens ocupem toda a largura disponível */
+        text-align: center; /* Alinha o texto ao centro */
+    }
 }
