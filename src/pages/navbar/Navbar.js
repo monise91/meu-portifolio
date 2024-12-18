@@ -4,7 +4,7 @@ import "./Navbar.css";
 function Navbar() {
     return (
         <header className="cabecalho">
-            <div className="cabecalho-logo">Sites Sistemas</div>
+            <div className="cabecalho-logo">Sites e Sistemas</div>
             <nav className="cabecalho-menu">
                 <ul>
                     <li><a href="#home">Home</a></li>
