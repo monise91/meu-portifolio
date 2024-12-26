@@ -6,22 +6,18 @@
     padding: 10px 20px;
     color: #fff;
     position: fixed;
-    width: 100vw; /* Use 100% da largura visível da viewport */
+    width: 100vw;
     z-index: 1000;
     top: 0;
-    left: 0; /* Garante que o Navbar começa na borda esquerda */
+    left: 0;
     box-sizing: border-box;
 }
 
-
-
-/* Logo */
 .cabecalho-logo {
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-/* Links de navegação */
 .cabecalho-menu ul {
     display: flex;
     list-style: none;
@@ -44,7 +40,6 @@
     color: #ffa652;
 }
 
-/* Botão de menu */
 .menu-toggle {
     display: none;
     background: none;
@@ -54,14 +49,13 @@
     cursor: pointer;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
     .menu-toggle {
-        display: block; /* Mostra o botão em telas menores */
+        display: block;
     }
 
     .cabecalho-menu {
-        display: none; /* Esconde o menu padrão */
+        display: none;
         flex-direction: column;
         position: absolute;
         top: 60px;
@@ -73,7 +67,7 @@
     }
 
     .cabecalho-menu.open {
-        display: flex; /* Mostra o menu quando aberto */
+        display: flex;
     }
 
     .cabecalho-menu ul {

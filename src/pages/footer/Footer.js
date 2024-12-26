@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'; // Certifique-se de que o caminho para o arquivo CSS está correto
+import './Footer.css';
 import { Link } from 'react-router-dom';
 function Footer() {
     return (
