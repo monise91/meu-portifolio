@@ -12,7 +12,7 @@ const Competencia = () => {
                 <li><FontAwesomeIcon icon={faJava} /> Java</li>
                 <li><FontAwesomeIcon icon={faJs} /> API Rest</li>
                 <li><FontAwesomeIcon icon={faReact} /> React</li>
-                <li><FontAwesomeIcon icon={faGithub} /> Git e GitHub</li>
+                <li><FontAwesomeIcon icon={faGithub} /> GitHub</li>
                 <li><FontAwesomeIcon icon={faHtml5} /> HTML</li>
                 <li><FontAwesomeIcon icon={faCss3} /> CSS</li>
                 <li><FontAwesomeIcon icon={faJs} /> MongoDB</li>

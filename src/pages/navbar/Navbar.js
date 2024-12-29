@@ -8,6 +8,10 @@ function Navbar() {
         setMenuOpen(!menuOpen);
     };
 
+    const closeMenu = () => {
+        setMenuOpen(false);
+    };
+
     return (
         <header className="cabecalho">
             <div className="cabecalho-logo">Sites e Sistemas</div>
@@ -16,12 +20,12 @@ function Navbar() {
             </button>
             <nav className={`cabecalho-menu ${menuOpen ? "open" : ""}`}>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#competencia">Competências</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#home" onClick={closeMenu}>Home</a></li>
+                    <li><a href="#sobre" onClick={closeMenu}>Sobre</a></li>
+                    <li><a href="#servicos" onClick={closeMenu}>Serviços</a></li>
+                    <li><a href="#projetos" onClick={closeMenu}>Projetos</a></li>
+                    <li><a href="#competencia" onClick={closeMenu}>Competências</a></li>
+                    <li><a href="#contato" onClick={closeMenu}>Contato</a></li>
                 </ul>
             </nav>
         </header>

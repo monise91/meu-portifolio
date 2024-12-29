@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Grid, Typography } from "@mui/material";
-import capaMo from "../../assets/capaMo.jpg";
+import capaMo from "../../assets/MoFoto.jpg";
 import AddIcCallIcon from '@mui/icons-material/AddIcCall';
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import StyledButton from "../../componentes/StyledButton/StyledButton";
